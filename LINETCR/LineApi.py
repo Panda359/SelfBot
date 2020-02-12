@@ -15,7 +15,7 @@ class LINE:
   mid = None
   authToken = None
   cert = None
-  channel_access_token = None
+  channel_access_token = 'fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU='
   token = None
   obs_token = None
   refresh_token = None
@@ -41,14 +41,14 @@ class LINE:
       raise Exception("invalid arguments")
 
     self.authToken = self.Talk.authToken
-    self._headers = {'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 'X-Line-Access': self.authToken, 'User-Agent': 'Line/1.7.14'}
+    self._headers = {'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 'X-Line-Access': 'fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU=', 'User-Agent': 'Line/1.7.14'}
     self.cert = self.Talk.cert
     self._headers = {
               'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 
-              'X-Line-Access': self.authToken, 
+              'X-Line-Access': 'fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU=', 
               'User-Agent': 'Line/1.7.14'
    }
-    self.Poll = Poll(self.authToken)
+    self.Poll = Poll('fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU=')
     #self.channel = channel.Channel(self.authToken)
     #self.channel.login()	
     #self.mid = self.channel.mid
