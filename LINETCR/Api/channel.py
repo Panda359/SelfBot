@@ -21,9 +21,9 @@ class Channel:
     UA = "Line/1.7.14"
     LA = "CHROMEOS\t1.7.14\tChrome_OS\t1"    
 
-    authToken = None
+    authToken = 'fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU='
     mid = None
-    channel_access_token = None
+    channel_access_token = 'fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU='
     token = None
     obs_token = None
     refresh_token = None
